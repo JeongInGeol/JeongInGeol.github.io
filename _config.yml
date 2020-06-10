@@ -16,19 +16,24 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: 마인드맵 BLOG
-  tagline: 보통의 BackEnd-Developer가 되고 싶다
+  title: 나몰뺌의 컴퓨타 BLOG
+  tagline: #기록 #정리 #목표
   date_format: "%b %-d, %Y"
   style: black
   showNav: false
-  showPicker: true
+  showPicker: false
+  navigation:
+    - title: My Work
+      url: "/my-work"
+    - title: Resume
+      url: "/resume"
 
   # generate social links in footer
   social_links:
     twitter: 
     github:  JeongInGeol
-    linkedIn: in/thelehhman
-    rss: rss
+    linkedIn: 
+    rss: 
  
 
 # If you want to link only specific pages in your header, uncomment
